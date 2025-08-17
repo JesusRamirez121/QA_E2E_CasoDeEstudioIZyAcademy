@@ -6,10 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {
-                "src/test/resources/features/register.feature",
-                "src/test/resources/features/crear_categoria.feature"
-        },
+        features = "src/test/resources/features/caso_de_estudio_izyacademy.feature",
         glue = "com.co.izyacademy.stepsdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = {"pretty"}

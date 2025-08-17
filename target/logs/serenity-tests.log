@@ -47,3 +47,7 @@
 2025-08-16 22:40:44.257 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
 2025-08-16 22:40:44.258 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
 2025-08-16 22:44:15.701 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Screenplay con Jesus
+2025-08-16 23:23:31.989 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Selenium con Screenplay se refiere a un patrón de diseño aplicado a pruebas automatizadas con Selenium, que forma parte de Serenity BDD
+2025-08-16 23:23:51.584 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 23:23:51.585 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Selenium con Screenplay se refiere a un patrón de diseño aplicado a pruebas automatizadas con Selenium, que forma parte de Serenity BDD
+2025-08-16 23:23:51.586 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
