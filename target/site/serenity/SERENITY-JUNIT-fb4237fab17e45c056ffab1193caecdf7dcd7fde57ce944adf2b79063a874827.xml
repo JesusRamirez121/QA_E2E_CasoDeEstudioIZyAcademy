@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Crear una nueva categoría" skipped="2" tests="3" time="44.36" timestamp="2025-08-16 10:43:52"><testcase name="Crear una nueva categoría"><failure message="&#13;&#10;Expected: an element that is visible&#13;&#10;     but: no matching element found by [Click en el boton de que accion desea realizar located with: (//button[normalize-space()='¿Qué acción deseas realizar?'])[1]]" type="java.lang.AssertionError">&#13;
+Expected: an element that is visible&#13;
+     but: no matching element found by [Click en el boton de que accion desea realizar located with: (//button[normalize-space()='¿Qué acción deseas realizar?'])[1]]</failure><system-err>&#13;
+Expected: an element that is visible&#13;
+     but: no matching element found by [Click en el boton de que accion desea realizar located with: (//button[normalize-space()='¿Qué acción deseas realizar?'])[1]]&#13;
+com.co.izyacademy.tasks.CrearCategoriaTask.performAs(CrearCategoriaTask.java:57)&#13;
+com.co.izyacademy.stepsdefinitions.CrearCategoriaStepDefinition.creaUnaNuevaCategoríaConLosSiguientesDatos(CrearCategoriaStepDefinition.java:43)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.13.1/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.13.1/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.13.1/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0.min.js"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Caso de estudio IzyAcademy</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="61f1437592f7a6c3b95690ce34aa472e2aa03446da60ea16391660d9843689d8.html">Crear Categoria</a></span>
+                > <span class="truncate-60"><a
+                    href="fb4237fab17e45c056ffab1193caecdf7dcd7fde57ce944adf2b79063a874827.html">Crear una nueva categor&iacute;a </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 16-08-2025 22:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">Crear Una Nueva Categoría </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="646e1aa15308ee542ccc2acdb4001ce071d4e742a6798e3842565067e8e58969.html">Crear Categoria
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html">Under 1 Second
+                                        (Duration)
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="807800d881ce82b8b89b09d012d03499bbfc8863451de9b69b17ce5981dabe27.html">Crear Nueva Categoria
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html">30 To 60 Seconds
+                                        (Duration)
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="e7b6d031446487233253d45483c4b6526b8a9f1c7ebf68be99b6051048bdc273.html">Iniciar Sesion
+                                </a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Crear una nueva categor&iacute;a
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Cuando el usuario es direccionado a la url &lt;urlpost&gt;<br>Y el usuario hace clic en el botón Crear nueva categoría<br>Y crea una nueva categoría con los siguientes datos<br><table class='embedded'><thead><th>nombreCategoria</th><th>descripcion</th><th>dificultad</th></thead><tbody><tr><td>&lt;nombreCategoria&gt;</td><td>&lt;descripcion&gt;</td><td>&lt;dificultad&gt;</td></tr></tbody></table><br>Entonces el usuario debería ser redirigido a la página de &lt;urlpost&gt;<br>Y el usuario podra ver la categoría &lt;nombreCategoria&gt; con descripción &lt;descripcion&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: an element that is visible but: no matching element found by [Click en el boton de que accion desea realizar located with: (//button[normalize-space()='&iquest;Qu&eacute; acci&oacute;n deseas realizar?'])[1]]</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.izyacademy.tasks.CrearCategoriaTask.performAs(CrearCategoriaTask.java:57)<br />com.co.izyacademy.stepsdefinitions.CrearCategoriaStepDefinition.creaUnaNuevaCategoríaConLosSiguientesDatos(CrearCategoriaStepDefinition.java:43)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                    <div class="panel-body">
+                        <a href="pagesource935451448819451233.html" target="_blank" class="btn btn-info">HTML Source</a>
+                    </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6d70c4fb7dd31578017c8149c2eab6b8acc079de6b95d5cc78d66784596ae014.png" title=" 1: Crear una nueva categor&iacute;a ({nombreCategoria=Tecnologia-Jesus, descripcion=Screenplay con Jesus, dificultad=medium, urlpost=https://auto.izyacademy.com/post})" width="0"/>
+                <img src="6d70c4fb7dd31578017c8149c2eab6b8acc079de6b95d5cc78d66784596ae014.png" title=" Dado que el usuario ingresa a la p&aacute;gina web" width="0"/>
+                <img src="6d70c4fb7dd31578017c8149c2eab6b8acc079de6b95d5cc78d66784596ae014.png" title=" User opens the browser at https://auto.izyacademy.com/" width="0"/>
+                <img src="6cfec295b6b2e1367a3d7f90a55fd2224cd188d71aaa5477b00ad75dbe7ef1cb.png" title=" User opens the browser at https://auto.izyacademy.com/ (completed)" width="0"/>
+                <img src="6cfec295b6b2e1367a3d7f90a55fd2224cd188d71aaa5477b00ad75dbe7ef1cb.png" title=" Dado que el usuario ingresa a la p&aacute;gina web (completed)" width="0"/>
+                <img src="6cfec295b6b2e1367a3d7f90a55fd2224cd188d71aaa5477b00ad75dbe7ef1cb.png" title=" Cuando el usuario ingresa usuario y contrase&ntilde;a" width="0"/>
+                <img src="03fe18557daec5bcb069fcce83b18b8dd5db1b36aa17dc906025ea23d59fa3d3.png" title=" User login task" width="0"/>
+                <img src="4f94afa61f0369f212beb955814a3990538dbdeb7d7d7bf8c8955c84011bc4f5.png" title=" User clicks on Toggle menu" width="0"/>
+                <img src="1b30d52e9d6405e2339188bb770e14e3014bd9f564c79defca0a362ec3b4971c.png" title=" User clicks on Toggle menu (completed)" width="0"/>
+                <img src="cd9937cbb7921a0de7fecf4f336daa7b30407ef4eb9f49a6971d96f095f07ca0.png" title=" User clicks on Login button" width="0"/>
+                <img src="d705859513a179e9d1d0dc3721a0ff19bb0b7d82226fa69969dd0e5f0b3f1e1d.png" title=" User clicks on Login button (completed)" width="0"/>
+                <img src="f052d875815df47e94dc3b71ccf2e00cb310bf21ddd901f152b05496250a8d2f.png" title=" User clicks on Email input box" width="0"/>
+                <img src="d66dd3f20b57e9165aca2bf6ce3e614dbaaed2223bb1cd7df695be738a9509d6.png" title=" User clicks on Email input box (completed)" width="0"/>
+                <img src="d66dd3f20b57e9165aca2bf6ce3e614dbaaed2223bb1cd7df695be738a9509d6.png" title=" User enters 'jesus1.ramirezmin@gmail.com' into Email input box" width="0"/>
+                <img src="db15ee601ddf476a9b3a9a53e5dda966278cdc0c89b45f168d802b964a21be80.png" title=" User enters 'jesus1.ramirezmin@gmail.com' into Email input box (completed)" width="0"/>
+                <img src="89627fde655daeb67a8ec1046124184820792d940bc054ecbd029a552b9288b9.png" title=" User clicks on Password input box" width="0"/>
+                <img src="65015523f7faa95d6545076a1d650928ae1e4bf7244c0315533f6944b6e66e1c.png" title=" User clicks on Password input box (completed)" width="0"/>
+                <img src="65015523f7faa95d6545076a1d650928ae1e4bf7244c0315533f6944b6e66e1c.png" title=" User enters '12345678' into Password input box" width="0"/>
+                <img src="685e9eccece972ce898055b9697c9ee06792184551e5add90dacbe4f5269ab0d.png" title=" User enters '12345678' into Password input box (completed)" width="0"/>
+                <img src="685e9eccece972ce898055b9697c9ee06792184551e5add90dacbe4f5269ab0d.png" title=" User clicks on Login submit button" width="0"/>
+                <img src="352fb1318f57d35594e7eb703092f82d9bbd8283c52abfe7c0ee224b48dd74f6.png" title=" User clicks on Login submit button (completed)" width="0"/>
+                <img src="2daf69d94f9a730171a36a2fa7460d8fe831e6764af90c9b316ca24ab7d4b585.png" title=" User login task (completed)" width="0"/>
+                <img src="2daf69d94f9a730171a36a2fa7460d8fe831e6764af90c9b316ca24ab7d4b585.png" title=" Cuando el usuario ingresa usuario y contrase&ntilde;a (completed)" width="0"/>
+                <img src="2daf69d94f9a730171a36a2fa7460d8fe831e6764af90c9b316ca24ab7d4b585.png" title=" Entonces el usuario podra ver su username Yisus" width="0"/>
+                <img src="a5fc539605341607c8b1e87f2ca6373eb56f3af6b960d850a7acbdd88ee4bb13.png" title=" Then compare name should be a string containing 'Yisus'" width="0"/>
+                <img src="fbd571fb2be17c7466549747b5936da465c8fa4b1f3ca7bf2c8e669d30cb16d7.png" title=" User clicks on Click al elemento user" width="0"/>
+                <img src="f1182b2d9203b8c71d9cf2171ce8ca5b8a5c62db8ac6bea487b9405ac5eb5152.png" title=" User clicks on Click al elemento user (completed)" width="0"/>
+                <img src="4be02d7039198e8302bdad09c35b848559ceb0a2f226f459408b2e5d18d11b49.png" title=" Then compare name should be a string containing 'Yisus' (completed)" width="0"/>
+                <img src="4be02d7039198e8302bdad09c35b848559ceb0a2f226f459408b2e5d18d11b49.png" title=" Entonces el usuario podra ver su username Yisus (completed)" width="0"/>
+                <img src="4be02d7039198e8302bdad09c35b848559ceb0a2f226f459408b2e5d18d11b49.png" title=" Cuando el usuario es direccionado a la url https://auto.izyacademy.com/post" width="0"/>
+                <img src="4be02d7039198e8302bdad09c35b848559ceb0a2f226f459408b2e5d18d11b49.png" title=" User menu hamburguesa task" width="0"/>
+                <img src="05a253388732fccc3663ff473dd9dd124313f3e160459068a0646249f337c781.png" title=" User clicks on Toggle menu" width="0"/>
+                <img src="45da91a74e9d1c7d529180cba102ccc114117d067b4f57e4cbc935f4e5225f4b.png" title=" User clicks on Toggle menu (completed)" width="0"/>
+                <img src="de65c40e6b5bc104ea7bd82679dca9e3614054bc263392a4759883fc5c1daafd.png" title=" User clicks on Posts button" width="0"/>
+                <img src="011bd27f5d4f263f59c71cfc87a8a03c048a0bc1270199b8736e45967431600f.png" title=" User clicks on Posts button (completed)" width="0"/>
+                <img src="011bd27f5d4f263f59c71cfc87a8a03c048a0bc1270199b8736e45967431600f.png" title=" User menu hamburguesa task (completed)" width="0"/>
+                <img src="011bd27f5d4f263f59c71cfc87a8a03c048a0bc1270199b8736e45967431600f.png" title=" Cuando el usuario es direccionado a la url https://auto.izyacademy.com/post (completed)" width="0"/>
+                <img src="011bd27f5d4f263f59c71cfc87a8a03c048a0bc1270199b8736e45967431600f.png" title=" Y el usuario hace clic en el bot&oacute;n Crear nueva categor&iacute;a" width="0"/>
+                <img src="1362d2634c23320a13d0e42f92d628a612415dd70e0df5f2bcabc61fc890612c.png" title=" User post task" width="0"/>
+                <img src="0b944565724cf79c12744f71a4467ba0d38a16cf31caec50dce4df2cbe3ade29.png" title=" User clicks on Click en el boton de que accion desea realizar" width="0"/>
+                <img src="f88b6d4be945c2c1b58c6e0c5b87b152a0b2fe4d82b9abb54690b85385b27401.png" title=" User clicks on Click en el boton de que accion desea realizar (completed)" width="0"/>
+                <img src="dd577e89b3b23a4ca3971bc927d88945759e35ad671922ebd15cf8fa23d4da61.png" title=" User clicks on Click en el boton de crear categoria" width="0"/>
+                <img src="22ca9f4b0679015fd1fcade87fc97c0dbea3262de1e21302763e6c9dc98602f5.png" title=" User clicks on Click en el boton de crear categoria (completed)" width="0"/>
+                <img src="22ca9f4b0679015fd1fcade87fc97c0dbea3262de1e21302763e6c9dc98602f5.png" title=" User post task (completed)" width="0"/>
+                <img src="22ca9f4b0679015fd1fcade87fc97c0dbea3262de1e21302763e6c9dc98602f5.png" title=" Y el usuario hace clic en el bot&oacute;n Crear nueva categor&iacute;a (completed)" width="0"/>
+                <img src="a2362ec4afe5d391e02732f797508b8584eeb1f8ba75058eaf9ac138d7f40653.png" title=" Y crea una nueva categor&iacute;a con los siguientes datos
+| nombreCategoria | descripcion | dificultad |
+| Tecnologia-Jesus | Screenplay con Jesus | medium |" width="0"/>
+                <img src="a2362ec4afe5d391e02732f797508b8584eeb1f8ba75058eaf9ac138d7f40653.png" title=" User crear categoria task" width="0"/>
+                <img src="487c15cdf7dc949d3cc47e891a44dae244bd278434b1eb145ca648003688a6ab.png" title=" User clicks on Input Nombre Categoria" width="0"/>
+                <img src="692a74e3ca2999d5d277f83238b5d7912725edf4787a885fd3c0cbf1453e94ec.png" title=" User clicks on Input Nombre Categoria (completed)" width="0"/>
+                <img src="692a74e3ca2999d5d277f83238b5d7912725edf4787a885fd3c0cbf1453e94ec.png" title=" User enters 'Tecnologia-Jesus' into Input Nombre Categoria" width="0"/>
+                <img src="b40c13c1a3591a9ca2a4f68a2f0fca7a89bc2715fc20c98517285577d4c4a02e.png" title=" User enters 'Tecnologia-Jesus' into Input Nombre Categoria (completed)" width="0"/>
+                <img src="b40c13c1a3591a9ca2a4f68a2f0fca7a89bc2715fc20c98517285577d4c4a02e.png" title=" User types 'TAB' in Input Nombre Categoria" width="0"/>
+                <img src="b9e0901bc5174943be0687ebd3543f272c478ca0346fabd80909791b01cec3e0.png" title=" User types 'TAB' in Input Nombre Categoria (completed)" width="0"/>
+                <img src="706eb7be1b84f339e2bf2835890d8c22b014a867d831fdff9d9804cc12234d71.png" title=" User enters 'Screenplay con Jesus' into Input Descripcion Categoria" width="0"/>
+                <img src="4d9f94ab60ce5a2d7e928642fe0d7b37d43a57cbeeb7a80a8a4c3c8348645afc.png" title=" User enters 'Screenplay con Jesus' into Input Descripcion Categoria (completed)" width="0"/>
+                <img src="4d9f94ab60ce5a2d7e928642fe0d7b37d43a57cbeeb7a80a8a4c3c8348645afc.png" title=" User clicks on Checkbox Medium" width="0"/>
+                <img src="49763799cd20c04bf848ccbe6753a2b2e89a1d39f1f1ac73a296d577b96ac912.png" title=" User clicks on Checkbox Medium (completed)" width="0"/>
+                <img src="49763799cd20c04bf848ccbe6753a2b2e89a1d39f1f1ac73a296d577b96ac912.png" title=" Upload file at D:\Izy Academy\CasoDeEstudioIzyAcademy\build\resources\test\files\curso_IA.jpg to Boton Seleccionar Archivo" width="0"/>
+                <img src="c876ae6c44e48bdb5cf352c80815ef1a7d79530854ee7b84bcfa3defaa36c65b.png" title=" Upload file at D:\Izy Academy\CasoDeEstudioIzyAcademy\build\resources\test\files\curso_IA.jpg to Boton Seleccionar Archivo (completed)" width="0"/>
+                <img src="18217c6af81965daf258038390f6f91df99f92042622ecd5cfe3d9eb30a97a32.png" title=" User clicks on Boton Crear Categoria" width="0"/>
+                <img src="4f7483f1bae065ff2d50e025c78bf5c01d22914e26a9d8990c0c644c81ce46cb.png" title=" User clicks on Boton Crear Categoria (completed)" width="0"/>
+                <img src="f3b6b0af127f043448d3fbc8666d4b5209921804db33fa88a893e88c9436da5d.png" title=" User clicks on Boton Enviar de todas formas" width="0"/>
+                <img src="25dd3d51391c1187f094b9fceb2c1ad33e9f9082686d7b9217fc9fa42ec23a46.png" title=" User clicks on Boton Enviar de todas formas (completed)" width="0"/>
+
+                <img src="25dd3d51391c1187f094b9fceb2c1ad33e9f9082686d7b9217fc9fa42ec23a46.png" title=" User crear categoria task (completed): <span class='failing-color'>FAILURE</span>" width="0"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 4.2.1</span>
+</div>
+</body>
+</html>

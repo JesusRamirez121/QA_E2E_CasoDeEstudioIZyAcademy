@@ -1,0 +1,49 @@
+2025-08-16 15:10:11.512 [Test worker] INFO  c.c.i.tasks.BuscarCategoriaTask - Descripción detallada: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:10:18.403 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:10:18.404 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:10:18.404 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:25:11.851 [Test worker] INFO  c.c.i.tasks.BuscarCategoriaTask - Descripción detallada: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:25:18.958 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:25:18.958 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:25:18.958 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:34:38.834 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:34:38.835 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:34:38.836 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:41:58.532 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:41:58.535 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:41:58.536 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:47:44.631 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:47:44.632 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:47:44.633 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:50:17.910 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:50:17.911 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:50:17.913 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:51:46.001 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 15:51:46.002 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 15:51:46.003 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:01:22.004 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:01:22.005 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 18:01:22.007 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:01:51.953 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:01:51.955 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 18:01:51.956 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:05:11.388 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:05:11.389 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 18:05:11.390 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:07:34.012 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 18:07:34.013 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 18:07:34.015 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 21:53:29.805 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 21:53:47.713 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 21:53:47.713 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 21:53:47.714 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 22:05:23.709 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 22:05:42.304 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 22:05:42.305 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 22:05:42.306 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 22:37:05.118 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje
+2025-08-16 22:40:22.273 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje
+2025-08-16 22:40:44.256 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 22:40:44.257 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - Descripción actual: Curso de Inteligencia Artificial que cubre machine learning, deep learning y procesamiento de lenguaje natural
+2025-08-16 22:40:44.258 [Test worker] INFO  c.c.i.q.DescripcionCategoriaQuestion - ========================================
+2025-08-16 22:44:15.701 [Test worker] INFO  c.c.i.tasks.CrearCategoriaTask - Screenplay con Jesus
